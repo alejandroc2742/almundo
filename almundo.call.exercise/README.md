@@ -4,7 +4,7 @@ El objetivo de este ejercicio es conocer cómo los candidatos a entrar a
 almundo.com usan herramientas básicas de Java y diseñan soluciones
 orientadas a objetos.
 
-###Ejercicio de Java
+###Forma de entrega
 
 Forma de entrega
 La solución tiene que estar pusheada en un repo git. La url del mismo
