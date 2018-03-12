@@ -1,5 +1,10 @@
 package com.almundo.Call.almundo.call.exercise.config;
-
+/***
+ * 
+ * @author Alejandro Céspedes
+ * Clase utilitaria para la configuración de la aplicación.
+ *
+ */
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

@@ -1,5 +1,11 @@
 package com.almundo.Call.almundo.call.exercise;
-
+/***
+ * 
+ * @author Alejandro Céspedes
+ * Clase encargada de generar nuevas llamadas cada determinado tiempo, este atributo
+ * es configurable desde @AppConfig cambiando el valor de TIME_FOR_NEW_CALL
+ *
+ */
 import java.util.logging.Logger;
 
 import com.almundo.Call.almundo.call.exercise.config.AppConfig;
@@ -8,10 +14,6 @@ public class CallProducer implements Runnable {
 
 	Logger log = Logger.getLogger(CallProducer.class.getName());
 
-	/*
-	 * Clase encargada de producir llamadas cada @time milisegundos
-	 * 
-	 */
 	public void run() {
 		long numberOfCall = 0;
 		while (true) {

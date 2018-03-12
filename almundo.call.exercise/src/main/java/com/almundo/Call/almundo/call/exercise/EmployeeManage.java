@@ -1,5 +1,11 @@
 package com.almundo.Call.almundo.call.exercise;
-
+/***
+ * 
+ * @author Alejandro Céspedes
+ * Clase creada para cargar los atributos básicos de cada empleado, administrar su 
+ * disponibilidad, tipo de rol y prioridad
+ *
+ */
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;

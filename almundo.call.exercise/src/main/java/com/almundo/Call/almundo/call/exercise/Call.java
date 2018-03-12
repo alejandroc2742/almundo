@@ -1,5 +1,10 @@
 package com.almundo.Call.almundo.call.exercise;
-
+/***
+ * 
+ * @author Alejandro Céspedes
+ * Clase con los atributos básicos de cada llamada
+ *
+ */
 public class Call {
 	private long id;
 	private Double duration;

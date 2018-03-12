@@ -1,5 +1,10 @@
 package com.almundo.Call.almundo.call.exercise;
-
+/***
+ * 
+ * @author Alejandro Céspedes
+ * Clase con los atributos básicos de cada empleado
+ *
+ */
 public class Employee {
 	
 	private String role;

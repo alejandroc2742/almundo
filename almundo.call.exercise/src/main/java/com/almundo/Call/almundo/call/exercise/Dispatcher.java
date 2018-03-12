@@ -1,5 +1,12 @@
 package com.almundo.Call.almundo.call.exercise;
-
+/***
+ * 
+ * @author Alejandro Céspedes
+ * Clase encargada de consumir las llamadas expuestas por @CallProducer, validando la 
+ * lista de empledados disponibles, recuperando el empleado con prioridad máxima prioridad
+ * libre al momento de atender la llamada
+ *
+ */
 import java.util.logging.Logger;
 
 import org.springframework.context.ApplicationContext;

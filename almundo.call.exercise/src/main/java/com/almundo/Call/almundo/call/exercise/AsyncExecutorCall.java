@@ -6,7 +6,13 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import com.almundo.Call.almundo.call.exercise.config.AppConfig;
-
+/***
+ * 
+ * @author Alejandro Céspedes
+ * Esta clase permite tener un control asincrono sobre el estado del empleado @isBusy
+ * y el estado de las llamadas @inProgress, determinando la duración de la llamada desde 
+ * @AppConfig.
+ */
 @Component
 @Scope("prototype")
 public class AsyncExecutorCall implements Runnable {
