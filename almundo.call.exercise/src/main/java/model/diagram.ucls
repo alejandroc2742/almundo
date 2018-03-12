@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" automaticImage="JPEG" always-add-relationships="true" 
+  generalizations="true" realizations="true" associations="true" dependencies="true" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="com.almundo.Call.almundo.call.exercise.Call" project="almundo.call.exercise" 
+    file="/almundo.call.exercise/src/main/java/com/almundo/Call/almundo/call/exercise/Call.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="243" width="178" x="666" y="1230"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.almundo.Call.almundo.call.exercise.Dispatcher" project="almundo.call.exercise" 
+    file="/almundo.call.exercise/src/main/java/com/almundo/Call/almundo/call/exercise/Dispatcher.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="178" x="490" y="260"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.almundo.Call.almundo.call.exercise.Employee" project="almundo.call.exercise" 
+    file="/almundo.call.exercise/src/main/java/com/almundo/Call/almundo/call/exercise/Employee.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="333" width="178" x="235" y="857"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.almundo.Call.almundo.call.exercise.App" project="almundo.call.exercise" 
+    file="/almundo.call.exercise/src/main/java/com/almundo/Call/almundo/call/exercise/App.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="178" x="599" y="121"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.almundo.Call.almundo.call.exercise.AsyncExecutorCall" 
+    project="almundo.call.exercise" 
+    file="/almundo.call.exercise/src/main/java/com/almundo/Call/almundo/call/exercise/AsyncExecutorCall.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="178" x="467" y="610"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.almundo.Call.almundo.call.exercise.EmployeeManage" 
+    project="almundo.call.exercise" 
+    file="/almundo.call.exercise/src/main/java/com/almundo/Call/almundo/call/exercise/EmployeeManage.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="255" x="193" y="417"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.almundo.Call.almundo.call.exercise.CallProducer" 
+    project="almundo.call.exercise" 
+    file="/almundo.call.exercise/src/main/java/com/almundo/Call/almundo/call/exercise/CallProducer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="178" x="708" y="260"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.almundo.Call.almundo.call.exercise.QueueCalls" project="almundo.call.exercise" 
+    file="/almundo.call.exercise/src/main/java/com/almundo/Call/almundo/call/exercise/QueueCalls.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="178" x="687" y="417"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="9">    
+    <bendpoint x="223" y="610"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="10" name="employee7"/>      
+      <multiplicity id="11" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="12">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="13" name="call"/>      
+      <multiplicity id="14" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="15">    
+    <bendpoint x="696" y="610"/>    
+    <bendpoint x="696" y="857"/>    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="16" name="queueCalls"/>      
+      <multiplicity id="17" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="18">    
+    <bendpoint x="286" y="610"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="19" name="employee3"/>      
+      <multiplicity id="20" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="21">    
+    <bendpoint x="478" y="417"/>    
+    <bendpoint x="436" y="610"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="22">    
+    <bendpoint x="139" y="610"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="23" name="employee1"/>      
+      <multiplicity id="24" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="25">    
+    <bendpoint x="499" y="417"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="26">    
+    <bendpoint x="265" y="610"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="27" name="employee6"/>      
+      <multiplicity id="28" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="29">    
+    <bendpoint x="575" y="857"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="30">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="31" name="emManage"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="33">    
+    <bendpoint x="160" y="610"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="34" name="employee8"/>      
+      <multiplicity id="35" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="36">    
+    <bendpoint x="656" y="417"/>    
+    <bendpoint x="675" y="610"/>    
+    <bendpoint x="675" y="857"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="37">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="38">    
+    <bendpoint x="895" y="417"/>    
+    <bendpoint x="895" y="610"/>    
+    <bendpoint x="895" y="857"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="39">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="40">    
+    <bendpoint x="181" y="610"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="41" name="employee2"/>      
+      <multiplicity id="42" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="43">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="44">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="45">    
+    <bendpoint x="202" y="610"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="46" name="employeeList"/>      
+      <multiplicity id="47" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="48">    
+    <bendpoint x="328" y="610"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="49" name="employee4"/>      
+      <multiplicity id="50" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="51">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <association id="52">    
+    <bendpoint x="307" y="610"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="53" name="employee10"/>      
+      <multiplicity id="54" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="55">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="56" name="employee"/>      
+      <multiplicity id="57" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="58">    
+    <bendpoint x="118" y="610"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="59" name="employee9"/>      
+      <multiplicity id="60" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="61">    
+    <bendpoint x="244" y="610"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="62" name="employee5"/>      
+      <multiplicity id="63" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
