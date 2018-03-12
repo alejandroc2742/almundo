@@ -45,5 +45,7 @@ segundos.
 
 - Debe tener un test unitario donde lleguen 10 llamadas.
 
+en la ruta almundo.call.exercise/src/main/java/model/
+puede encontrarse el modelo.
 
 ......
